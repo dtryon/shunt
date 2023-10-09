@@ -16,7 +16,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <header className="flex">
+          <img width="50px" src="/trusty-logo.svg" />
+        </header>
+        {children}
+      </body>
     </html>
   );
 }
