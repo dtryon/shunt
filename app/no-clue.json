@@ -8,5 +8,15 @@
     {"id":"7", "message": "You're doing an amazing job on this hunt! Keep up the good work!"},
     {"id":"8", "message": "Feeling puzzled? Don't worry, the answers are all around you."},
     {"id":"9", "message": "You're doing great! Keep hunting, and success will be yours!"},
-    {"id":"10", "message": "You're navigating these office waters like a pro! Keep paddling towards your next clue."}
+    {"id":"10", "message": "You're navigating these office waters like a pro! Keep paddling towards your next clue."},
+    {"id":"11", "message": "Check out the nearest whiteboard for a bonus challenge! It's not a clue, but it's worth a shot."},
+    {"id":"12", "message": "The water cooler is a hotspot for office gossip, but it won't spill the beans on your next clue!"},
+    {"id":"13", "message": "Meeting rooms are often full of secrets, but your next clue is out in the open!"},
+    {"id":"14", "message": "Appreciate the office art on your journey. Your next clue is a work of art waiting to be discovered!"},
+    {"id":"15", "message": "Take a quick 'coffee break' to recharge your energy before continuing the hunt!"},
+    {"id":"16", "message": "Admire the office art, but remember, the real masterpiece is your scavenger hunt!"},
+    {"id":"17", "message": "You are unstoppable! Keep proving it with every clue you find."},
+    {"id":"18", "message": "To hunt or not to hunt, that is the question. (Hint: The answer is 'Hunt!')"},
+    {"id":"19", "message": "Word on the street is that the next clue is right around the corner. Keep your ear to the ground!"},
+    {"id":"20", "message": "Did you know the first paperclip patent was issued in 1867? Keep it together like a paperclip and find your next clue!"}
 ]

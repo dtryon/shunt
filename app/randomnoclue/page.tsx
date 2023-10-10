@@ -4,7 +4,7 @@ export default async function Page() {
     const file = await fs.readFile(process.cwd() + '/app/no-clue.json', 'utf8');
     const data = JSON.parse(file);
 
-    let x = Math.floor((Math.random() * 10) + 1);
+    let x = Math.floor((Math.random() * 20) + 1);
     const item = data[x];
     console.log(item);
 
