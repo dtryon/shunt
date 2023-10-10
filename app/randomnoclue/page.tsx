@@ -1,7 +1,7 @@
 import { promises as fs } from 'fs';
 import React from 'react';
 
-export interface Clue {
+export interface NoClue {
     id: string;
     message: string;
     image: string;
@@ -9,7 +9,7 @@ export interface Clue {
 
 export default async function Page({ searchParams }) {
     const file = await fs.readFile(process.cwd() + '/app/no-clue.json', 'utf8');
-    const data: [Clue] = JSON.parse(file);
+    const data: [NoClue] = JSON.parse(file);
 
     const clueId: String = searchParams.clue;
     console.log(clueId);
@@ -21,15 +21,13 @@ export default async function Page({ searchParams }) {
         }
     }
 
-    const item = data[index];
+    const item:NoClue = data[index];
 
     return (
         <div>
-            <p className="text-center pb-24 italic">
-                {item.message}
-            </p>
+            <p className="text-center pb-24 italic">{item?.message}</p>
             {
-                item.image ?
+                item?.image ?
                     <img width="200px" src={item.image} /> : <div></div>
             }
         </div>
