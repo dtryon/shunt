@@ -1,34 +1,14 @@
 import { promises as fs } from "fs";
-import Image from "next/image";
 import React from "react";
 import { notFound } from "next/navigation";
 
-export interface Clue {
-  id: string;
-  message: string;
-  image?: string;
-  dummy?: boolean;
-}
+import { DummyClue } from "./DummyClue";
+import { ActualClue } from "./ActualClue";
 
-interface DummyClueProps {
-  item: Clue;
-}
+import type { Clue } from "../custom";
 
 interface PageProps {
   searchParams: { clue: string };
-}
-
-function DummyClue({ item }: DummyClueProps) {
-  return (
-    <div>
-      <p className="text-center pb-24 italic">{item?.message}</p>
-      {item?.image ? (
-        <Image width={200} height={200} src={item.image} alt="image for clue" />
-      ) : (
-        <div></div>
-      )}
-    </div>
-  );
 }
 
 export default async function Page({ searchParams }: PageProps) {
@@ -50,5 +30,5 @@ export default async function Page({ searchParams }: PageProps) {
     return <DummyClue item={clue} />;
   }
 
-  return <div>Show Actual Clue Renderer!</div>;
+  return <ActualClue item={clue} />;
 }
