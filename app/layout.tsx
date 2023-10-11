@@ -1,6 +1,8 @@
 import "./globals.css";
-import type { Metadata } from "next";
+import Image from "next/image";
 import { Inter } from "next/font/google";
+
+import type { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +20,13 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <header className="flex items-center bg-sky-950">
-          <img className="flex-none" width="60px" src="/trusty-logo.svg" />
+          <Image
+            className="flex-none"
+            width={60}
+            height={60}
+            src="/trusty-logo.svg"
+            alt="logo"
+          />
           <section className="flex-auto">
             <h2 className="pl-2 text-slate-300">October Scavenger Hunt</h2>
           </section>

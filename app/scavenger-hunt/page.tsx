@@ -1,6 +1,7 @@
-import { promises as fs } from 'fs';
-import React, { ReactPropTypes } from 'react';
-import { notFound } from 'next/navigation'
+import { promises as fs } from "fs";
+import Image from "next/image";
+import React from "react";
+import { notFound } from "next/navigation";
 
 export interface Clue {
   id: string;
@@ -13,20 +14,25 @@ interface DummyClueProps {
   item: Clue;
 }
 
+interface PageProps {
+  searchParams: { clue: string };
+}
+
 function DummyClue({ item }: DummyClueProps) {
   return (
     <div>
       <p className="text-center pb-24 italic">{item?.message}</p>
-      {
-        item?.image ?
-          <img width="200px" src={item.image} /> : <div></div>
-      }
+      {item?.image ? (
+        <Image width={200} height={200} src={item.image} alt="image for clue" />
+      ) : (
+        <div></div>
+      )}
     </div>
   );
 }
 
-export default async function Page({ searchParams }) {
-  const file = await fs.readFile(process.cwd() + '/app/clues.json', 'utf8');
+export default async function Page({ searchParams }: PageProps) {
+  const file = await fs.readFile(process.cwd() + "/app/clues.json", "utf8");
   const data: [Clue] = JSON.parse(file);
 
   const clueId: String = searchParams.clue;
@@ -41,10 +47,8 @@ export default async function Page({ searchParams }) {
   }
 
   if (clue.dummy) {
-    return (<DummyClue item={clue} />);
+    return <DummyClue item={clue} />;
   }
 
-  return (
-    <div>Show Actual Clue Renderer!</div>
-  )
+  return <div>Show Actual Clue Renderer!</div>;
 }
