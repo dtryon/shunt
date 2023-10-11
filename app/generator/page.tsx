@@ -1,4 +1,5 @@
 import QRCode from "react-qr-code";
+import Image from "next/image";
 import { getClues } from "../clues";
 
 import type { Clue } from "../custom";
@@ -11,27 +12,32 @@ export default async function Page({ searchParams }: PageProps) {
   const data: [Clue] = await getClues();
 
   return (
-    <div className="bg-white">
+    <div className="bg-white w-full">
       {data.map((clue) => {
         const clueUrl = `http://${searchParams.hostname}/scavenger-hunt?clue=${clue.id}`;
 
         return (
           <div
-            style={{
-              height: "auto",
-              margin: "0 auto",
-              maxWidth: 200,
-              width: "100%",
-            }}
+            key={clue.id}
+            className="flex flex-col items-center h-auto w-full m-auto max-w-[300px] p-[30px] mb-[30px] border-dotted border-2 border-gray-300"
           >
-            <a href={clueUrl}>link</a>
             <QRCode
               size={200}
-              style={{ height: "auto", maxWidth: "100%", width: "100%" }}
+              style={{
+                height: "auto",
+                maxWidth: "100%",
+                width: "100%",
+                border: "5px solid rgb(191, 219, 254)",
+              }}
               value={clueUrl}
               viewBox={`0 0 200 200`}
             />
-            <h2>?</h2>
+            <Image
+              width={50}
+              height={50}
+              src="/question-mark.jpeg"
+              alt="question mark"
+            />
           </div>
         );
       })}
