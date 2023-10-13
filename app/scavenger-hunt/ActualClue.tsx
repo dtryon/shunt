@@ -31,6 +31,11 @@ export function ActualClue({ item }: ActualClueProps) {
           <p className="text-sm">Your secret letters are:</p>
           <h4 className="text-3xl">&quot;{item.secret}&quot;</h4>
           <p className="text-sm">(Keep these safe to be used later)</p>
+          {item?.extra ? (
+            <p className="text-base mt-[12px]">{item?.extra}</p>
+          ) : (
+            <p></p>
+          )}
         </div>
       ) : (
         <div></div>
@@ -40,7 +45,6 @@ export function ActualClue({ item }: ActualClueProps) {
       ) : (
         <p></p>
       )}
-      {item?.extra ? <p className="text-base">{item?.extra}</p> : <p></p>}
     </div>
   );
 }
