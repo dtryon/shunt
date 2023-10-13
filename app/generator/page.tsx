@@ -17,11 +17,8 @@ export default async function Page({ searchParams }: PageProps) {
         const clueUrl = `http://${searchParams.hostname}/scavenger-hunt?clue=${clue.id}`;
 
         return (
-          <div className="m-[30px]">
-            <div
-              key={clue.id}
-              className="flex flex-col items-center h-auto w-full m-auto max-w-[300px] p-[30px] mb-[30px] border-dotted border-2 border-gray-300"
-            >
+          <div className="m-[30px]" key={clue.id}>
+            <div className="flex flex-col items-center h-auto w-full m-auto max-w-[300px] p-[30px] mb-[30px] border-dotted border-2 border-gray-300">
               <QRCode
                 size={200}
                 style={{
