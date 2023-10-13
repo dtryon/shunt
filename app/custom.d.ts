@@ -4,4 +4,9 @@ export interface Clue {
   image?: string;
   dummy?: boolean;
   secret?: string;
+  fact?: string;
+  reminder?: string;
+  extra?: string;
+  day?: number;
+  number?: number;
 }

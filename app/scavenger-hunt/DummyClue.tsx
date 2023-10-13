@@ -8,8 +8,12 @@ export interface DummyClueProps {
 
 export function DummyClue({ item }: DummyClueProps) {
   return (
-    <div>
-      <p className="text-center pb-24 italic">{item?.message}</p>
+    <div className="flex flex-col items-center mt-[20px]">
+      <Image width={170} height={170} src="/nope.jpg" alt="is it a clue?" />
+      <h2 className="text-center p-[24px]">
+        Unfortunately, this is not a clue for the scavenger hunt.
+      </h2>
+      <p className="text-center p-[24px] italic">{item?.message}</p>
       {item?.image ? (
         <Image width={200} height={200} src={item.image} alt="image for clue" />
       ) : (

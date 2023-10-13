@@ -1,21 +1,115 @@
 [
   {
+    "id": "4c31ca51-2b84-43ff-ae1d-b6807d0f4b93",
+    "message": "In honour of wellness month where self-care takes flight, your first destination is a place of respite.",
+    "fact": "Welcome to Day 1. Good luck!",
+    "secret": "LL",
+    "day": 1,
+    "number": 1
+  },
+  {
     "id": "d6320f5a-6795-11ee-8c99-0242ac120002",
-    "message": "This emoji clue isn't part of the official game, but it's a smiley reminder to keep searching!",
-    "dummy": true
+    "message": "Find the stories of courage, resilience, and achievements artfully presented on canvas. Seek out the spot where this displayed art celebrates Black History Month, and you'll find the next piece of your journey",
+    "fact": "Did you know there is a yoga wellness event on 24 October? Go to London Social Committee GlobalNet to register - spots are still available throughout the day, including a virtual lunch time session!",
+    "secret": "LL",
+    "day": 1,
+    "number": 2
   },
   {
     "id": "e04fbc76-6795-11ee-8c99-0242ac120002",
-    "message": "You're on the hunt, and that's no stunt! Find the next clue, and you're almost through!",
-    "dummy": true
+    "message": "Your next clue is about one of our longer-standing Business Resrouce Groups's (BRG) that we celebrate with parades - rain or shine. You'll find your next clue on the floor of the month we celebrate.",
+    "fact": "Did you know, 'The Buffalo Soldiers' were African American soldiers who served in the Western frontier following the American Civil War. You may have heard  of the famous song by Bob Marley in which he commemorates the soldiers and their role in history.",
+    "secret": "LL",
+    "day": 1,
+    "number": 3
   },
   {
-    "id": "e4bc24d4-6795-11ee-8c99-0242ac120002",
-    "message": "The only limit to our realization of tomorrow will be our doubts of today. - Franklin D. Roosevelt",
-    "dummy": true
+    "id": "0cf436a3-6ac8-4ac7-ab14-5a2f0b7569e5",
+    "message": "You've completed today's clues and we hope you learned a bit about our beautiful new building! You will now need to submit a selfie or photo to this morning's GlobalNet post as your timed daily check point. Incorporate one of the PRIDE umbrellas and why not take the photo out on the nearest terrace!",
+    "fact": "Did you know PRIDE was the first formal BRG in EMEA? Our newest BRG, THRIVE, will launch later this year for Disability Inclusion.",
+    "reminder": "Remember - tomorrow's clues will be available at 8am and hope you’ve been saving those secret letters for Day 3!",
+    "secret": "LL",
+    "day": 1,
+    "number": 4
   },
   {
-    "id": "e868b8b8-6795-11ee-8c99-0242ac120002",
+    "id": "63a8ef9f-60e0-4772-a8f0-e41261db60e2",
+    "message": "This place has a lot of power and in a corporate setting it works all hours. Where circuits and wires entwine, it’s there to get us online. With experts ready to assist, they’ll never leave you in a twist.",
+    "fact": "Welcome to Day 2. Have fun!",
+    "secret": "LL",
+    "day": 2,
+    "number": 1
+  },
+  {
+    "id": "ef2ae1b8-0044-46b8-92ae-58b1391e5870",
+    "message": "Crack this code: O-P-R-O-O-T-M-S. When you rearrange it right, it will lead to your next site.",
+    "fact": "Our amazing Desktop Support Techs (Andy Wall, Anthony Frost, Bao Ho, Duncan Richardson, Jo Smyth, Jude Pereis and Richard van de Ven) closed a whopping 5,500+ IT support/ help tickets so far this year.",
+    "secret": "LL",
+    "day": 2,
+    "number": 2
+  },
+  {
+    "id": "b3b4d7c1-7e75-44ff-b8f8-ca63f4df7f18",
+    "message": "Books and shelves, a quiet place to think. Make sure you're on the level where all is pink.",
+    "fact": "Did you know one of our T. Rowe Price Senior Fixed Income Traders started life in the post room",
+    "secret": "LL",
+    "day": 2,
+    "number": 3
+  },
+  {
+    "id": "b2320983-fb71-406d-a8c8-7874eee480b6",
+    "message": "I'm cold and solid, sometimes cube or sphere. In your drink I bring a chill so clear. Seek a gadget where cold is the theme and often considered an American's coffee dream.",
+    "fact": "Did you know there are board games available for use in the cupboard?",
+    "secret": "LL",
+    "day": 2,
+    "number": 4
+  },
+  {
+    "id": "ebec66b3-f4a7-4fff-ad5a-64725b732699",
+    "message": "You've completed today's clues and hope you're having fun! Grab a glass of ice and incorporate it into a photo on the nearest terrace. Go to this morning's GlobalNet post and upload your photo to post a comment as your timed submission.",
+    "fact": "Did you know that the straight-walled glasses in the cafes are good for both hot and cold drinks? Remember - just put them in the dishwashers when you're done!",
+    "reminder": "Tomorrow’s clue will be available at 8am. And again… don’t forget those letters!",
+    "secret": "LL",
+    "day": 2,
+    "number": 5
+  },
+  {
+    "id": "2c599269-ce45-43dc-b7a0-f6cd1d163e3e",
+    "message": "Solve this word search for keys to the next site.",
+    "fact": "Welcome to the final day of your search!",
+    "image": "/wordsearch.jpg",
+    "secret": "LL",
+    "day": 3,
+    "number": 1
+  },
+  {
+    "id": "bb9a08c7-4649-4356-9d8e-e5b03b586022",
+    "message": "Discover the spot where eco-conscious riders reside, where wheels and sustainability coincide. Seek the area where green commuting is embraced and find your bike's resting place.",
+    "fact": "There are approximately 376 open spaces totalling 32 hectares in the City of London. Bumblebees and wild bees are two of only 8 target species to have been selected for their wider conservation value and importance to be reintroduced to the City.",
+    "secret": "LL",
+    "day": 3,
+    "number": 2
+  },
+  {
+    "id": "16912064-7b2c-408b-9edc-e5c055a13e2f",
+    "message": "Your next clue makes a philanthropist of you. Find the banner encouraging you to be a donor and match your gifts. Be sure to explore the outdoor on the trading floor.",
+    "fact": "Did you know you can sign up for T. Rowe Price's Cycle to Work Scheme to save money on bikes or cycling gear? 133,442 tonnes of CO2 is saved each year by people cycling to work.",
+    "secret": "LL",
+    "day": 3,
+    "number": 3
+  },
+  {
+    "id": "f39f969b-0aeb-45de-ac69-34d9f0444596",
+    "message": "This is the last clue of the scavenger hunt! To submit your last timed entry, post a photo or selfie to this morning's GlobalNet post. Get creative as we will be awarding 'style' points!",
+    "fact": "Did you know you can make donations to your favourite non-profits on Community Connection and have them matched by the firm? Visit My Links>CommunityConnection on the front page of the Exchange.",
+    "reminder": "Final challenge – unscramble the secret letters from the clues each day and make sure to incorporate the word into your final GN comment! This proves to us that you’ve solved each clue!",
+    "extra": "We hope to see you soon at the Closing Ceremony for bubbles and canapes… and PRIZES! 4pm in the Exchange.",
+    "secret": "LL",
+    "day": 3,
+    "number": 4
+  },
+  {
+    "id": "908b86c8-bc60-4d9f-b182-6345f88b6adf",
     "message": "Did you know that honey never spoils? Keep searching for sweet surprises!",
     "dummy": true
   },
@@ -99,10 +193,5 @@
     "id": "56b5114c-00cb-4aa4-aef4-ce9a2a808e35",
     "message": "Did you know the first paperclip patent was issued in 1867? Keep it together like a paperclip and find your next clue!",
     "dummy": true
-  },
-  {
-    "id": "4c31ca51-2b84-43ff-ae1d-b6807d0f4b93",
-    "message": "This is an actual clue",
-    "secret": "LL"
   }
 ]
